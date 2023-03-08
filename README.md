@@ -1,14 +1,14 @@
 # LuhnCalulator_LabView
 This repo contains of a simple Luhn Calculator for Swedish "Person nummer" (Personal ID number in Sweden).
-Format is YYMMDD-CCCL
+Format is YYMMDD-NNGL
+- Y = Year
+- M = Month
+- D = Day
+- N = Randomized number
+- G = Gender code (Even / Odd)
+- L = Luhn number
 
-Y: Year
-M: Month
-D: Day
-C: Dedicated number from government
-L: Luhn Calculation
-
-##LuhnCalculator.lvproj
+## LuhnCalculator.lvproj
 Project file for the application
 
 ## MainWindow.vi
